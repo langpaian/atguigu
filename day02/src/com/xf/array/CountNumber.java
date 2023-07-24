@@ -36,6 +36,8 @@ public class CountNumber {
 
         System.out.println("master test");
 
+        System.out.println("hot-fix test");
+
 //        //方法1：
 //        Stream.of(arr).forEach(System.out::println);
 //        //方法2：
