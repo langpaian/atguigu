@@ -9,8 +9,8 @@ import java.util.stream.Stream;
  * Description:
  *
  * @Author 浪拍岸
- * @Create 23/7/2023 下午4:36
- * @Version 1.0
+ * @Create 24/7/2023 下午11:23
+ * @Version 3.0
  */
 public class CountNumber {
     public static void main(String[] args) {
@@ -19,7 +19,7 @@ public class CountNumber {
         int evenSum = 0;
         int oddCount = 0;
         for (int i = 0; i < 10; i++) {
-            int random = (int) (Math.random()*100);
+            int random = (int) (Math.random()*100+1);
             arr[i] = random;
             sum += random;
             if(random % 2 == 0){
