@@ -25,9 +25,10 @@ public class CountNumber {
             if(random % 2 == 0){
                 evenSum += random;
             }else{
-                oddCount ++;
+                oddCount += 1;
             }
         }
+
         System.out.println("sum = " + sum);
         System.out.println("evenSum = " + evenSum);
         System.out.println("oddCount = " + oddCount);
