@@ -34,6 +34,8 @@ public class CountNumber {
         System.out.println("oddCount = " + oddCount);
         System.out.println(Arrays.toString(arr));
 
+        System.out.println("hot-fix test");
+
 //        //方法1：
 //        Stream.of(arr).forEach(System.out::println);
 //        //方法2：
